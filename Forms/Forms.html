@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Us (post)</h1>
+
+  <form action="submit-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" >
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" >
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter your message" ></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <form action="http://www.example.com/login.php">
+    <p>Username
+        <input type="text" name="username" size="15" maxlength="30" />
+    </p>
+  </form>
+</body>
+</html>
